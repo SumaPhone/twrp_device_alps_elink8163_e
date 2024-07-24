@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="SumaPhone/twrp_device_alps_elink8163_e" path="device/alps/elink8163_e" remote="github" revision="twrp-5.1" />
+</manifest>

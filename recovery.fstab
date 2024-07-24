@@ -1,0 +1,12 @@
+/boot         emmc     /dev/block/mmcblk0p9     flags=display="Boot"
+/cache        ext4     /dev/block/mmcblk0p22    flags=display="Cache"
+/data         ext4     /dev/block/mmcblk0p23    flags=display="Data"
+/recovery     emmc     /dev/block/mmcblk0p10    flags=display="Recovery";backup=1
+/system       ext4     /dev/block/mmcblk0p21    flags=display="System"
+
+/external_sd  auto     /dev/block/mmcblk1p1     flags=display="Micro SD Card";storage;wipeingui;removable
+
+# MTK Partitions
+/nvram        emmc     /dev/block/mmcblk0p2     flags=display="NVRAM";backup=1
+/lk           emmc     /dev/block/mmcblk0p7     flags=display="LK";backup=1
+/logo         emmc     /dev/block/mmcblk0p13    flags=display="Logo";backup=1
